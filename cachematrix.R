@@ -27,7 +27,7 @@ cacheSolve <- function(x, ...) {
                 return(i)
         }
         data <- x$get()
-        m <- slove(data, ...)
+        i <- slove(data, ...)
         x$setInverse(i)
         i
 }
